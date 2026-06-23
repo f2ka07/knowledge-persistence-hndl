@@ -1,0 +1,170 @@
+{
+  "generated_at": "2026-06-23T08:31:19.714682+00:00",
+  "cohort": "hndl",
+  "outcome": "time_to_decay_years",
+  "event_definition": "annual_citation_rate < 0.1 * peak_rate for 3 consecutive years",
+  "models": {
+    "weibull_aft": {
+      "status": "ok",
+      "formula": "time_to_decay_years ~ publication_year + citation_count + concept_depth + C(field)",
+      "records": 187,
+      "events": 37,
+      "coefficients": [
+        {
+          "parameter": "lambda_",
+          "covariate": "Intercept",
+          "coef": -356.5914607875226,
+          "exp_coef": 1.36237380973049e-155,
+          "p_value": 0.022880275205791847
+        },
+        {
+          "parameter": "lambda_",
+          "covariate": "publication_year",
+          "coef": 0.17336184758847087,
+          "exp_coef": 1.1892963712578657,
+          "p_value": 0.022435492425445673
+        },
+        {
+          "parameter": "lambda_",
+          "covariate": "citation_count",
+          "coef": 0.01237507417112032,
+          "exp_coef": 1.0124519622393249,
+          "p_value": 0.5758360887281908
+        },
+        {
+          "parameter": "lambda_",
+          "covariate": "concept_depth",
+          "coef": 0.3714744717856688,
+          "exp_coef": 1.4498708330156023,
+          "p_value": 0.282388240419576
+        },
+        {
+          "parameter": "lambda_",
+          "covariate": "C(field)[T.artificial_intelligence]",
+          "coef": 0.935203576610554,
+          "exp_coef": 2.547732063607313,
+          "p_value": 0.4030610324580953
+        },
+        {
+          "parameter": "lambda_",
+          "covariate": "C(field)[T.control_systems]",
+          "coef": 1.5692671812607226,
+          "exp_coef": 4.803127082231503,
+          "p_value": 0.18120383824967673
+        },
+        {
+          "parameter": "lambda_",
+          "covariate": "C(field)[T.cryptography]",
+          "coef": 5.396865958897309,
+          "exp_coef": 220.71360561091925,
+          "p_value": 0.03548353192463768
+        },
+        {
+          "parameter": "lambda_",
+          "covariate": "C(field)[T.cybersecurity]",
+          "coef": 0.436721297191711,
+          "exp_coef": 1.547624689597516,
+          "p_value": 0.6552214456136565
+        },
+        {
+          "parameter": "lambda_",
+          "covariate": "C(field)[T.quantum_computing]",
+          "coef": 2.977407194281479,
+          "exp_coef": 19.63683608108951,
+          "p_value": 0.0870365788042447
+        },
+        {
+          "parameter": "lambda_",
+          "covariate": "C(field)[T.semiconductors]",
+          "coef": 5.001425323903571,
+          "exp_coef": 148.6248467517454,
+          "p_value": 0.01800359205923905
+        },
+        {
+          "parameter": "lambda_",
+          "covariate": "C(field)[T.telecommunications]",
+          "coef": 0.8966010119429653,
+          "exp_coef": 2.4512571415178095,
+          "p_value": 0.4174628606989397
+        },
+        {
+          "parameter": "rho_",
+          "covariate": "Intercept",
+          "coef": -0.6278743663800896,
+          "exp_coef": null,
+          "p_value": 4.006090276321469e-05
+        }
+      ],
+      "concordance_index": 0.7743016759776536
+    },
+    "quantile_regression_median": {
+      "status": "ok",
+      "quantile": 0.5,
+      "formula": "time_to_decay_years ~ publication_year + citation_count + concept_depth + field",
+      "records": 37,
+      "note": "Fit on observed decay events only; does not model censoring.",
+      "coefficients": [
+        {
+          "covariate": "const",
+          "coef": 1.9999611500749666,
+          "p_value": 5.923814113036299e-109
+        },
+        {
+          "covariate": "publication_year",
+          "coef": 2.12680793532094e-08,
+          "p_value": 0.1522899436715122
+        },
+        {
+          "covariate": "citation_count",
+          "coef": -4.2321592064187286e-09,
+          "p_value": 0.3688776625650939
+        },
+        {
+          "covariate": "concept_depth",
+          "coef": 1.8468276391514493e-07,
+          "p_value": 0.009667815521162512
+        },
+        {
+          "covariate": "field_artificial_intelligence",
+          "coef": -3.3029682722229836e-07,
+          "p_value": 0.14189297627881767
+        },
+        {
+          "covariate": "field_control_systems",
+          "coef": -9.961927904811319e-08,
+          "p_value": 0.6412495674297927
+        },
+        {
+          "covariate": "field_cryptography",
+          "coef": -2.1287430485017467e-07,
+          "p_value": 0.6811571550578213
+        },
+        {
+          "covariate": "field_cybersecurity",
+          "coef": 1.2922528203063166e-07,
+          "p_value": 0.42398086553713865
+        },
+        {
+          "covariate": "field_quantum_computing",
+          "coef": -6.371397827109604e-07,
+          "p_value": 0.1118066453493194
+        },
+        {
+          "covariate": "field_semiconductors",
+          "coef": 23.000000138288225,
+          "p_value": 2.308930719165349e-187
+        },
+        {
+          "covariate": "field_telecommunications",
+          "coef": 6.173148126009664e-08,
+          "p_value": 0.7612591120139831
+        }
+      ]
+    }
+  },
+  "interpretation": {
+    "research_question": "Which variables explain influence decay?",
+    "citation_count_dominates_over_field": false,
+    "paper_framing": "Contribution: how should long-horizon information persistence be operationalised?"
+  }
+}

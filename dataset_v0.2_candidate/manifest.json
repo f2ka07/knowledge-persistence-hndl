@@ -1,0 +1,52 @@
+{
+  "dataset_version": "v0.2_candidate",
+  "frozen_at": "2026-06-23T08:31:26.069030+00:00",
+  "pipeline_version": "0.1.0",
+  "git_commit": null,
+  "seed": 42,
+  "api_versions": {
+    "openalex": "https://api.openalex.org",
+    "opencitations": "https://api.opencitations.net/index/v2",
+    "crossref_event_data": "https://api.eventdata.crossref.org/v1 (optional)"
+  },
+  "query": {
+    "openalex_filter": "publication_year:1995-2012,concepts.id:C41008148,cited_by_count:30-1000,has_doi:true",
+    "openalex_select": "id,doi,publication_year,cited_by_count,referenced_works,authorships,primary_location,concepts",
+    "limit": null
+  },
+  "interpretation_policy": "Citation persistence is proxy K(t), not trade secret value V(t). Do not interpret cohort medians without survival analysis.",
+  "analysis_phase": true,
+  "paper_framing": "How should long-horizon information persistence be operationalised?",
+  "files": {
+    "metadata/_debug.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "metadata/checkpoint_baseline.json": "fc114fe5f01e4531e2e7ae74c634c04d088e0b8149534c65f0dc9056668e1c54",
+    "metadata/checkpoint_baseline_matched.json": "e58b9876555f93a3bb5d205fd9180290d3438eda17b4547be48ec1e7ede9e11c",
+    "metadata/checkpoint_baseline_year_only.json": "77b1354bd7b8d06ede43172736b3215b941ec2d7142b45745fbce61f459e402b",
+    "metadata/checkpoint_openalex.json": "892ec3fdc8221b4a717e775a790e5bc287788199507ab7cf35b91b5bdf19b9db",
+    "metadata/checkpoint_opencitations.json": "4253c9984b7edad24e1530110f6a2fe4bb459e6461f7c895ddf56357b8771b0d",
+    "metadata/checkpoint_opencitations_baseline.json": "f94b31b4c5b67d616cba4078bf490183e50c96f25b1c4a8dc5af4990bf86e2b2",
+    "metadata/checkpoint_opencitations_baseline_matched.json": "8e2148d61c5a80483568aae0df7fd8e16ee2d43828715d17395a700eaa5f6cb7",
+    "metadata/checkpoint_opencitations_baseline_year_only.json": "1cbd52c412307a5a2365a15747fd220ec8c9099ce27b34543e4d85982d01db4a",
+    "metadata/citation_audit.json": "8849c20b8f561e33fd890b022513eb7783d07156dfcd5c8ae2ae707eb9401a3a",
+    "metadata/dataset_doi_template.json": "feac5cf7f302899e5749ff82e75a334cbd0efd1c540d345056242a0ce190ec92",
+    "metadata/decay_regression.json": "ba930d887098f545b841684b24f96ef353bb812417e75986f99510b2ff206473",
+    "metadata/effective_events.json": "3558ebcc73fbba51e6a8a6a933668369f004a8f5bf38c0b5d7d8714feed60247",
+    "metadata/insight_pilot_summary.json": "58aefacb4d2b1c9a6304cc917d5a7aa255696a2708572189da1fce3f715af707",
+    "metadata/outlier_report.json": "af159ad4ec7e2b4e8ba221e239f623000d6efd7131062a8a8b662c5b990f0aec",
+    "metadata/pilot_sample.json": "2bb5979f9420029e90af5a03522e81e1d28e251a190dedd6f43245ae7071ea34",
+    "metadata/provenance.json": "e96b752f1ed2e36e4bb300db8774a6d80f429830b7ee95639d5d03be132d9eb6",
+    "metadata/quality_report.json": "bfb8cb8383156be3bf9bbca2d9cd0d90a592dc12de0b8aa503f7880822a6df41",
+    "metadata/survival_preview.json": "5562cc0aff8f51d2cb8dadaa9fe95ede6829c2305df5b01fe32c86a936702c5f",
+    "metadata/threshold_sensitivity.json": "588eae24bbb56e2be7ab2d3a427b917463acbc06519484f67872dede4144e39d",
+    "processed/baseline_matched.parquet": "cdbc1db12f87b4f5379e598885d483653ecefb33c212407c0482938013fe256f",
+    "processed/baseline_random_sample.parquet": "2535ae442c12562c3773ba3ab5191e1da4b336e97976785d43a8eb88d7b1acf4",
+    "processed/baseline_year_only.parquet": "48d5b967bfd42fb7bc2ad7f3ce73a9434c1da3f966c8785ecbee657f86007bb5",
+    "processed/citation_persistence_panel.parquet": "4feaf00ca4fa9973f7742586dcd2c475b64dc74ab3247703af1dc8bb050811a0",
+    "processed/citations.parquet": "5e675d76e416f3e8134da017831e37384da538d0240acaeed25b90a49bc765da",
+    "processed/citations_by_year.parquet": "83dfc0f5a2a7209b86315134e20b6f949d31e84b0b15f4bcaee90add329abdc8",
+    "processed/null_model_comparison.json": "83dfe9f92d4f066c3ecc6e7da2aea46e1fdf6dc0993baa6aa21ced8acb30a5b1",
+    "processed/persistence.parquet": "8bd455bb3e05f58f29f0df2900eeabd42cebea2778104a425a13c450c4b11f05",
+    "processed/threshold_sensitivity.parquet": "a76ddd4f0eb2229c9a995ab154d185c52ac34500bd5c6df395ff814567e5d391",
+    "processed/works.parquet": "fe6696a52f2459769e1ef33802a68430fa751fe559c99629232afd583102c981"
+  }
+}

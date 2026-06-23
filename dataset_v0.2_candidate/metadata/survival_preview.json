@@ -1,0 +1,270 @@
+{
+  "generated_at": "2026-06-23T08:21:54.930486+00:00",
+  "status": "ok",
+  "primary_event_definition": "influence_decay",
+  "event_rule": "annual_citation_rate < 0.1 * peak_rate for 3 consecutive years",
+  "interpretation_warning": "Primary survival models P(T_decay>t), not citation-stream extinction. Citation count is partly endogenous; directionality is not fully identifiable.",
+  "comparisons": {
+    "hndl_vs_baseline_random": {
+      "hypothesis": "P(T_decay>t | HNDL) vs P(T_decay>t | baseline_random)",
+      "records": {
+        "hndl": 187,
+        "baseline_random": 185
+      },
+      "events": {
+        "hndl": 37,
+        "baseline_random": 53
+      },
+      "censoring_share": {
+        "hndl": 0.8021390374331551,
+        "baseline_random": 0.7135135135135136
+      },
+      "kaplan_meier": {
+        "hndl": {
+          "median_survival_years": null,
+          "censoring_share": 0.8021390374331551
+        },
+        "baseline_random": {
+          "median_survival_years": null,
+          "censoring_share": 0.7135135135135136
+        }
+      },
+      "logrank_test": {
+        "test_statistic": 4.308712827425036,
+        "p_value": 0.03791764141274042
+      },
+      "cox_ph": {
+        "hazard_ratio_is_hndl": 0.6667371009247911,
+        "p_value_is_hndl": 0.05912133470395832
+      },
+      "weibull_aft": {
+        "coef_is_hndl": 0.5624103077458982,
+        "p_value_is_hndl": 0.07173930702763415
+      },
+      "reliability_notes": []
+    },
+    "hndl_vs_baseline_year_only": {
+      "hypothesis": "P(T_decay>t | HNDL) vs P(T_decay>t | baseline_year_only)",
+      "records": {
+        "hndl": 187,
+        "baseline_year_only": 182
+      },
+      "events": {
+        "hndl": 37,
+        "baseline_year_only": 59
+      },
+      "censoring_share": {
+        "hndl": 0.8021390374331551,
+        "baseline_year_only": 0.6758241758241759
+      },
+      "kaplan_meier": {
+        "hndl": {
+          "median_survival_years": null,
+          "censoring_share": 0.8021390374331551
+        },
+        "baseline_year_only": {
+          "median_survival_years": 28.0,
+          "censoring_share": 0.6758241758241759
+        }
+      },
+      "logrank_test": {
+        "test_statistic": 8.012837075098181,
+        "p_value": 0.004644691463366241
+      },
+      "cox_ph": {
+        "hazard_ratio_is_hndl": 0.577226594645612,
+        "p_value_is_hndl": 0.009139437231572772
+      },
+      "weibull_aft": {
+        "coef_is_hndl": 0.6705798008422937,
+        "p_value_is_hndl": 0.013981683074827368
+      },
+      "reliability_notes": []
+    },
+    "hndl_vs_baseline_matched": {
+      "hypothesis": "P(T_decay>t | HNDL) vs P(T_decay>t | baseline_matched)",
+      "records": {
+        "hndl": 187,
+        "baseline_matched": 187
+      },
+      "events": {
+        "hndl": 37,
+        "baseline_matched": 29
+      },
+      "censoring_share": {
+        "hndl": 0.8021390374331551,
+        "baseline_matched": 0.8449197860962567
+      },
+      "kaplan_meier": {
+        "hndl": {
+          "median_survival_years": null,
+          "censoring_share": 0.8021390374331551
+        },
+        "baseline_matched": {
+          "median_survival_years": null,
+          "censoring_share": 0.8449197860962567
+        }
+      },
+      "logrank_test": {
+        "test_statistic": 1.2096787520090482,
+        "p_value": 0.27139575356670503
+      },
+      "cox_ph": {
+        "hazard_ratio_is_hndl": 1.3250750749516345,
+        "p_value_is_hndl": 0.25645093675493114
+      },
+      "weibull_aft": {
+        "coef_is_hndl": -0.5266631954294765,
+        "p_value_is_hndl": 0.2515039282725071
+      },
+      "reliability_notes": []
+    }
+  },
+  "citation_stop_comparisons": {
+    "hndl_vs_baseline_random": {
+      "hypothesis": "P(T_stop>t | HNDL) vs P(T_stop>t | baseline_random)",
+      "records": {
+        "hndl": 187,
+        "baseline_random": 185
+      },
+      "events": {
+        "hndl": 4,
+        "baseline_random": 70
+      },
+      "censoring_share": {
+        "hndl": 0.9786096256684492,
+        "baseline_random": 0.6216216216216216
+      },
+      "kaplan_meier": {
+        "hndl": {
+          "median_survival_years": null,
+          "censoring_share": 0.9786096256684492
+        },
+        "baseline_random": {
+          "median_survival_years": 24.0,
+          "censoring_share": 0.6216216216216216
+        }
+      },
+      "logrank_test": {
+        "test_statistic": 72.40520556594423,
+        "p_value": 1.7525106536072067e-17
+      },
+      "cox_ph": {
+        "hazard_ratio_is_hndl": 0.046912382393648894,
+        "p_value_is_hndl": 2.7402319821287856e-09
+      },
+      "weibull_aft": {
+        "coef_is_hndl": 0.7278958082447217,
+        "p_value_is_hndl": 1.076060550420261e-07
+      },
+      "reliability_notes": []
+    },
+    "hndl_vs_baseline_year_only": {
+      "hypothesis": "P(T_stop>t | HNDL) vs P(T_stop>t | baseline_year_only)",
+      "records": {
+        "hndl": 187,
+        "baseline_year_only": 182
+      },
+      "events": {
+        "hndl": 4,
+        "baseline_year_only": 66
+      },
+      "censoring_share": {
+        "hndl": 0.9786096256684492,
+        "baseline_year_only": 0.6373626373626373
+      },
+      "kaplan_meier": {
+        "hndl": {
+          "median_survival_years": null,
+          "censoring_share": 0.9786096256684492
+        },
+        "baseline_year_only": {
+          "median_survival_years": 25.0,
+          "censoring_share": 0.6373626373626373
+        }
+      },
+      "logrank_test": {
+        "test_statistic": 71.58687363676152,
+        "p_value": 2.653158203142708e-17
+      },
+      "cox_ph": {
+        "hazard_ratio_is_hndl": 0.046948149210243054,
+        "p_value_is_hndl": 2.9727057617841846e-09
+      },
+      "weibull_aft": {
+        "coef_is_hndl": 0.6780469636404375,
+        "p_value_is_hndl": 9.525450403846832e-08
+      },
+      "reliability_notes": []
+    },
+    "hndl_vs_baseline_matched": {
+      "hypothesis": "P(T_stop>t | HNDL) vs P(T_stop>t | baseline_matched)",
+      "records": {
+        "hndl": 187,
+        "baseline_matched": 187
+      },
+      "events": {
+        "hndl": 4,
+        "baseline_matched": 2
+      },
+      "censoring_share": {
+        "hndl": 0.9786096256684492,
+        "baseline_matched": 0.9893048128342246
+      },
+      "kaplan_meier": {
+        "hndl": {
+          "median_survival_years": null,
+          "censoring_share": 0.9786096256684492
+        },
+        "baseline_matched": {
+          "median_survival_years": null,
+          "censoring_share": 0.9893048128342246
+        }
+      },
+      "logrank_test": {
+        "test_statistic": 0.6832023257389992,
+        "p_value": 0.4084861910926998
+      },
+      "cox_ph": {
+        "hazard_ratio_is_hndl": 2.012977213326412,
+        "p_value_is_hndl": 0.4191858407676917
+      },
+      "weibull_aft": {
+        "coef_is_hndl": -0.14966517783283328,
+        "p_value_is_hndl": 0.4460702403424164
+      },
+      "reliability_notes": []
+    }
+  },
+  "decomposition": {
+    "expected_pattern": "Random significant -> Year weaker -> Full neutral",
+    "observed_tiers": [
+      {
+        "tier": "A_random",
+        "baseline": "baseline_random",
+        "description": "Random baseline (year-matched counts only)",
+        "logrank_p_value": 0.03791764141274042,
+        "significant_at_0_05": true
+      },
+      {
+        "tier": "B_year_matched",
+        "baseline": "baseline_year_only",
+        "description": "Year+DOI matched (no citation band)",
+        "logrank_p_value": 0.004644691463366241,
+        "significant_at_0_05": true
+      },
+      {
+        "tier": "C_fully_matched",
+        "baseline": "baseline_matched",
+        "description": "Fully matched (year, citation band, depth, source)",
+        "logrank_p_value": 0.27139575356670503,
+        "significant_at_0_05": false
+      }
+    ],
+    "pattern_classification": "matching_reduces_apparent_effect",
+    "interpretation": "Observed persistence appears associated with influence accumulation rather than domain membership; citation count is partly endogenous to persistence."
+  },
+  "dataset_note": "dataset_v0.1 predates cited_doi fix; treat as exploratory only. Use post-fix builds for formal modelling.",
+  "paper_claim_guidance": "Observed knowledge persistence appears primarily associated with influence accumulation rather than domain membership. HNDL risk models should prioritise measured influence longevity over broad sector labels, while acknowledging that citation intensity and persistence are mutually reinforcing.",
+  "note": "Preview only. Formal modelling should reference a post-fix frozen dataset."
+}

@@ -1,0 +1,36 @@
+{
+  "hypothesis": "H0: K_HNDL = K_random",
+  "hndl": {
+    "cohort": "hndl",
+    "n": 187,
+    "median_half_life": 7.0,
+    "median_peak_age": 7.0,
+    "censored_share": 0.9893048128342246,
+    "mean_normalized_rate": 1.063038791389521
+  },
+  "baseline_year_only": {
+    "cohort": "baseline_year_only",
+    "n": 188,
+    "median_half_life": 8.0,
+    "median_peak_age": 5.0,
+    "censored_share": 0.6436170212765957,
+    "mean_normalized_rate": 0.9280784113520849
+  },
+  "note": "Formal test deferred to modelling stage. Do NOT interpret median differences: censoring rates differ across cohorts. Run fit-survival-preview before any narrative.",
+  "baseline_matched": {
+    "cohort": "baseline_matched",
+    "n": 188,
+    "median_half_life": 10.0,
+    "median_peak_age": 10.0,
+    "censored_share": 0.9893617021276596,
+    "mean_normalized_rate": 0.983643956152735
+  },
+  "baseline_random": {
+    "cohort": "baseline_random",
+    "n": 188,
+    "median_half_life": 8.0,
+    "median_peak_age": 5.0,
+    "censored_share": 0.6276595744680851,
+    "mean_normalized_rate": 0.92102090427576
+  }
+}

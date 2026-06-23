@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-06-23T08:21:57.192634+00:00",
+  "min_events_threshold": 50,
+  "primary_event_definition": "influence_decay",
+  "decay_rule": "annual_rate < 0.1 * peak_rate for 3 consecutive years",
+  "cohorts": {
+    "hndl": {
+      "records": 188,
+      "citation_stop_events": 4,
+      "influence_decay_events": 37,
+      "citation_stop_censoring_share": 0.9787234042553191,
+      "influence_decay_censoring_share": 0.8031914893617021
+    },
+    "baseline_random": {
+      "records": 188,
+      "citation_stop_events": 70,
+      "influence_decay_events": 53,
+      "citation_stop_censoring_share": 0.6276595744680851,
+      "influence_decay_censoring_share": 0.7180851063829787
+    },
+    "baseline_year_only": {
+      "records": 188,
+      "citation_stop_events": 67,
+      "influence_decay_events": 59,
+      "citation_stop_censoring_share": 0.6436170212765957,
+      "influence_decay_censoring_share": 0.6861702127659575
+    },
+    "baseline_matched": {
+      "records": 188,
+      "citation_stop_events": 2,
+      "influence_decay_events": 29,
+      "citation_stop_censoring_share": 0.9893617021276596,
+      "influence_decay_censoring_share": 0.8457446808510638
+    }
+  },
+  "hndl_influence_decay_events": 37,
+  "hndl_citation_stop_events": 4,
+  "ready_to_scale": false,
+  "scaling_guidance": "HNDL cohort has 37 influence-decay events and 4 citation-stop events (< 50). Do not broaden years further; refine event definitions or modelling before scaling.",
+  "note": "Influence decay measures strategic relevance loss, not citation extinction. dataset_v0.1 predates cited_doi fix; use post-fix builds for inference."
+}

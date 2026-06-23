@@ -1,0 +1,190 @@
+{
+  "works": [
+    {
+      "work_id": "W4405952790",
+      "doi": "10.1007/s41101-024-00334-z",
+      "year": 2024,
+      "concept": "Resource (disambiguation)",
+      "citation_count": 5,
+      "institution_count": 2
+    },
+    {
+      "work_id": "W4416574283",
+      "doi": "10.29121/shodhai.v1.i1.2024.54",
+      "year": 2024,
+      "concept": "Predictive analytics",
+      "citation_count": 5,
+      "institution_count": 1
+    },
+    {
+      "work_id": "W4405900544",
+      "doi": "10.1017/9781009531085.002",
+      "year": 2024,
+      "concept": "Computer science",
+      "citation_count": 5,
+      "institution_count": 2
+    },
+    {
+      "work_id": "W4405900976",
+      "doi": "10.1007/978-3-031-81404-4_6",
+      "year": 2024,
+      "concept": "Computer science",
+      "citation_count": 5,
+      "institution_count": 2
+    },
+    {
+      "work_id": "W4405902271",
+      "doi": "10.1016/j.jenvman.2024.123834",
+      "year": 2024,
+      "concept": "China",
+      "citation_count": 5,
+      "institution_count": 2
+    },
+    {
+      "work_id": "W4405902672",
+      "doi": "10.1016/j.icheatmasstransfer.2024.108566",
+      "year": 2024,
+      "concept": "Zeotropic mixture",
+      "citation_count": 5,
+      "institution_count": 2
+    },
+    {
+      "work_id": "W4405903018",
+      "doi": "10.1007/s10044-024-01395-5",
+      "year": 2024,
+      "concept": "Artificial intelligence",
+      "citation_count": 5,
+      "institution_count": 2
+    },
+    {
+      "work_id": "W4405905175",
+      "doi": "10.1016/j.snb.2024.137218",
+      "year": 2024,
+      "concept": "Nucleic acid",
+      "citation_count": 5,
+      "institution_count": 1
+    },
+    {
+      "work_id": "W4405905195",
+      "doi": "10.1016/j.cor.2024.106956",
+      "year": 2024,
+      "concept": "Operations research",
+      "citation_count": 5,
+      "institution_count": 2
+    },
+    {
+      "work_id": "W4405905332",
+      "doi": "10.1016/j.indic.2024.100577",
+      "year": 2024,
+      "concept": "Structural basin",
+      "citation_count": 5,
+      "institution_count": 5
+    }
+  ],
+  "citations": [
+    {
+      "source_doi": "10.1007/978-3-031-94634-9_14",
+      "target_doi": "10.1007/978-3-031-81404-4_6",
+      "citation_creation_date": "2025",
+      "citation_lag_years": 1.0
+    },
+    {
+      "source_doi": "10.1016/j.jenvman.2025.126795",
+      "target_doi": "10.1016/j.jenvman.2024.123834",
+      "citation_creation_date": "2025-09",
+      "citation_lag_years": 1.0
+    },
+    {
+      "source_doi": "10.3390/systems13090792",
+      "target_doi": "10.1016/j.jenvman.2024.123834",
+      "citation_creation_date": "2025-09-09",
+      "citation_lag_years": 1.0
+    },
+    {
+      "source_doi": "10.1016/j.neucom.2025.130786",
+      "target_doi": "10.1007/s10044-024-01395-5",
+      "citation_creation_date": "2025-10",
+      "citation_lag_years": 1.0
+    },
+    {
+      "source_doi": "10.1016/j.neucom.2025.131487",
+      "target_doi": "10.1007/s10044-024-01395-5",
+      "citation_creation_date": "2025-12",
+      "citation_lag_years": 1.0
+    },
+    {
+      "source_doi": "10.1016/j.microc.2025.115300",
+      "target_doi": "10.1016/j.snb.2024.137218",
+      "citation_creation_date": "2025-11",
+      "citation_lag_years": 1.0
+    },
+    {
+      "source_doi": "10.1007/s11518-025-5687-3",
+      "target_doi": "10.1016/j.cor.2024.106956",
+      "citation_creation_date": "2025-09-19",
+      "citation_lag_years": 1.0
+    },
+    {
+      "source_doi": "10.1016/j.jclepro.2025.146530",
+      "target_doi": "10.1016/j.cor.2024.106956",
+      "citation_creation_date": "2025-09",
+      "citation_lag_years": 1.0
+    },
+    {
+      "source_doi": "10.1002/vzj2.70014",
+      "target_doi": "10.1016/j.indic.2024.100577",
+      "citation_creation_date": "2025-03",
+      "citation_lag_years": 1.0
+    },
+    {
+      "source_doi": "10.2166/wcc.2025.660",
+      "target_doi": "10.1016/j.indic.2024.100577",
+      "citation_creation_date": "2025-08-12",
+      "citation_lag_years": 1.0
+    }
+  ],
+  "persistence": [
+    {
+      "entity_id": "W4405902271",
+      "first_year": 2024,
+      "last_citation_year": 2025,
+      "lifespan_years": 1.0,
+      "citation_half_life": 1.0
+    },
+    {
+      "entity_id": "W4405903018",
+      "first_year": 2024,
+      "last_citation_year": 2025,
+      "lifespan_years": 1.0,
+      "citation_half_life": 1.0
+    },
+    {
+      "entity_id": "W4405905195",
+      "first_year": 2024,
+      "last_citation_year": 2025,
+      "lifespan_years": 1.0,
+      "citation_half_life": 1.0
+    },
+    {
+      "entity_id": "W4405905332",
+      "first_year": 2024,
+      "last_citation_year": 2025,
+      "lifespan_years": 1.0,
+      "citation_half_life": 1.0
+    },
+    {
+      "entity_id": "W4405900976",
+      "first_year": 2024,
+      "last_citation_year": 2025,
+      "lifespan_years": 1.0,
+      "citation_half_life": 1.0
+    },
+    {
+      "entity_id": "W4405905175",
+      "first_year": 2024,
+      "last_citation_year": 2025,
+      "lifespan_years": 1.0,
+      "citation_half_life": 1.0
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.log
+
+# Raw ingestion (not redistributed)
+data/raw/
+data/intermediate/
+data/release_review/
+**/*_chunks/
+
+# Ingestion resume checkpoints
+**/checkpoint_*.json
+
+dist/
+build/

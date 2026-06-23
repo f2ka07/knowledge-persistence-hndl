@@ -1,0 +1,217 @@
+{
+  "generated_at": "2026-06-23T06:06:29.526010+00:00",
+  "summary": {
+    "works_count": 187,
+    "mean_incoming_edges": 705.12,
+    "max_incoming_edges": 950,
+    "outlier_threshold_suggestion": 3526.0,
+    "interpretation_warning": "Do not scale until outliers are reviewed for remove, winsorize, or keep."
+  },
+  "top_outliers": [
+    {
+      "doi": "10.1021/ja1086358",
+      "title": "Photocatalysis",
+      "sector": "semiconductors",
+      "pub_year": 2010,
+      "openalex_cited_by_count": 997,
+      "citations": 950,
+      "field_percentile": 0.5520829307568439,
+      "edge_ratio_to_mean": 1.347282682886135
+    },
+    {
+      "doi": "10.1002/adma.201102007",
+      "title": "Organic semiconductor",
+      "sector": "semiconductors",
+      "pub_year": 2011,
+      "openalex_cited_by_count": 992,
+      "citations": 946,
+      "field_percentile": 0.5757539198237139,
+      "edge_ratio_to_mean": 1.3416099136950355
+    },
+    {
+      "doi": "10.1039/c1cc10665a",
+      "title": "Facet (psychology)",
+      "sector": "semiconductors",
+      "pub_year": 2011,
+      "openalex_cited_by_count": 980,
+      "citations": 933,
+      "field_percentile": 0.5711105178404949,
+      "edge_ratio_to_mean": 1.3231734138239621
+    },
+    {
+      "doi": "10.1017/cbo9780511542039",
+      "title": "Field (mathematics)",
+      "sector": "aerospace",
+      "pub_year": 2005,
+      "openalex_cited_by_count": 981,
+      "citations": 930,
+      "field_percentile": 0.5436027733865358,
+      "edge_ratio_to_mean": 1.3189188369306375
+    },
+    {
+      "doi": "10.1038/nmat3650",
+      "title": "Materials science",
+      "sector": "semiconductors",
+      "pub_year": 2013,
+      "openalex_cited_by_count": 987,
+      "citations": 926,
+      "field_percentile": 0.5905751139275167,
+      "edge_ratio_to_mean": 1.313246067739538
+    },
+    {
+      "doi": "10.1021/nl070430o",
+      "title": "Quantum dot",
+      "sector": "semiconductors",
+      "pub_year": 2007,
+      "openalex_cited_by_count": 972,
+      "citations": 919,
+      "field_percentile": 0.44544147363068237,
+      "edge_ratio_to_mean": 1.3033187216551139
+    },
+    {
+      "doi": "10.1038/ncomms2152",
+      "title": "Artificial photosynthesis",
+      "sector": "semiconductors",
+      "pub_year": 2012,
+      "openalex_cited_by_count": 971,
+      "citations": 915,
+      "field_percentile": 0.5095899652512925,
+      "edge_ratio_to_mean": 1.2976459524640143
+    },
+    {
+      "doi": "10.1021/nl0728874",
+      "title": "Graphene",
+      "sector": "cybersecurity",
+      "pub_year": 2008,
+      "openalex_cited_by_count": 1000,
+      "citations": 914,
+      "field_percentile": 0.5547746892483735,
+      "edge_ratio_to_mean": 1.2962277601662393
+    },
+    {
+      "doi": "10.1002/adma.200800836",
+      "title": "Materials science",
+      "sector": "semiconductors",
+      "pub_year": 2008,
+      "openalex_cited_by_count": 963,
+      "citations": 913,
+      "field_percentile": 0.427742256322819,
+      "edge_ratio_to_mean": 1.2948095678684646
+    },
+    {
+      "doi": "10.1038/nmat2298",
+      "title": "Electric field",
+      "sector": "semiconductors",
+      "pub_year": 2008,
+      "openalex_cited_by_count": 982,
+      "citations": 908,
+      "field_percentile": 0.4746973572037511,
+      "edge_ratio_to_mean": 1.28771860637959
+    },
+    {
+      "doi": "10.1021/nn102472s",
+      "title": "Semiconductor",
+      "sector": "semiconductors",
+      "pub_year": 2011,
+      "openalex_cited_by_count": 976,
+      "citations": 908,
+      "field_percentile": 0.5628129502500212,
+      "edge_ratio_to_mean": 1.28771860637959
+    },
+    {
+      "doi": "10.1021/acs.jpclett.5b01895",
+      "title": "Membrane",
+      "sector": "cybersecurity",
+      "pub_year": 2015,
+      "openalex_cited_by_count": 998,
+      "citations": 899,
+      "field_percentile": 0.7226643053915781,
+      "edge_ratio_to_mean": 1.274954875699616
+    },
+    {
+      "doi": "10.1039/b821991e",
+      "title": "Photocatalysis",
+      "sector": "semiconductors",
+      "pub_year": 2009,
+      "openalex_cited_by_count": 947,
+      "citations": 893,
+      "field_percentile": 0.42562588803637397,
+      "edge_ratio_to_mean": 1.266445721912967
+    },
+    {
+      "doi": "10.1126/science.1158136",
+      "title": "Impulsivity",
+      "sector": "cybersecurity",
+      "pub_year": 2008,
+      "openalex_cited_by_count": 996,
+      "citations": 889,
+      "field_percentile": 0.5069854138713787,
+      "edge_ratio_to_mean": 1.2607729527218674
+    },
+    {
+      "doi": "10.1038/nphoton.2009.3",
+      "title": "Terahertz radiation",
+      "sector": "telecommunications",
+      "pub_year": 2009,
+      "openalex_cited_by_count": 998,
+      "citations": 887,
+      "field_percentile": 0.6505154927732782,
+      "edge_ratio_to_mean": 1.2579365681263177
+    },
+    {
+      "doi": "10.1038/s41567-018-0246-1",
+      "title": "Physics",
+      "sector": "quantum_computing",
+      "pub_year": 2018,
+      "openalex_cited_by_count": 991,
+      "citations": 887,
+      "field_percentile": 0.9088541666666666,
+      "edge_ratio_to_mean": 1.2579365681263177
+    },
+    {
+      "doi": "10.1021/nn301320r",
+      "title": "Materials science",
+      "sector": "semiconductors",
+      "pub_year": 2012,
+      "openalex_cited_by_count": 991,
+      "citations": 885,
+      "field_percentile": 0.5005759810153403,
+      "edge_ratio_to_mean": 1.2551001835307678
+    },
+    {
+      "doi": "10.1002/pssb.200743072",
+      "title": "Doping",
+      "sector": "semiconductors",
+      "pub_year": 2007,
+      "openalex_cited_by_count": 993,
+      "citations": 884,
+      "field_percentile": 0.38581083142639205,
+      "edge_ratio_to_mean": 1.253681991232993
+    },
+    {
+      "doi": "10.1021/nl4013166",
+      "title": "Materials science",
+      "sector": "semiconductors",
+      "pub_year": 2013,
+      "openalex_cited_by_count": 949,
+      "citations": 882,
+      "field_percentile": 0.6394679144907978,
+      "edge_ratio_to_mean": 1.2508456066374432
+    },
+    {
+      "doi": "10.1002/rnc.1624",
+      "title": "Control theory (sociology)",
+      "sector": "aerospace",
+      "pub_year": 2010,
+      "openalex_cited_by_count": 977,
+      "citations": 881,
+      "field_percentile": 0.5548679033590361,
+      "edge_ratio_to_mean": 1.2494274143396684
+    }
+  ],
+  "recommendations": [
+    "Compare incoming_citation_edges to openalex_cited_by_count for consistency.",
+    "Check whether max_citations_per_doi cap was exceeded in raw ingestion.",
+    "Decide handling before --limit-per-group 100."
+  ]
+}

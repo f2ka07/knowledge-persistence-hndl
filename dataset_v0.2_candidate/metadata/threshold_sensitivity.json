@@ -1,0 +1,137 @@
+{
+  "generated_at": "2026-06-23T08:30:23.860286+00:00",
+  "grid": [
+    {
+      "threshold_ratio": 0.05,
+      "consecutive_years": 2
+    },
+    {
+      "threshold_ratio": 0.05,
+      "consecutive_years": 3
+    },
+    {
+      "threshold_ratio": 0.1,
+      "consecutive_years": 2
+    },
+    {
+      "threshold_ratio": 0.1,
+      "consecutive_years": 3
+    },
+    {
+      "threshold_ratio": 0.15,
+      "consecutive_years": 3
+    },
+    {
+      "threshold_ratio": 0.2,
+      "consecutive_years": 3
+    }
+  ],
+  "primary_comparison": "hndl_vs_baseline_matched",
+  "rows": [
+    {
+      "threshold_ratio": 0.05,
+      "consecutive_years": 2,
+      "event_count": 41,
+      "censoring_rate": 0.7807486631016043,
+      "median_time_to_decay": null,
+      "logrank_p": 0.3691398951310171,
+      "cox_hr": 1.2295476179554414,
+      "logrank_p_matched": 0.3691398951310171,
+      "cox_hr_matched": 1.2295476179554414,
+      "matched_event_count": 34,
+      "matched_censoring_rate": 0.8181818181818182,
+      "logrank_p_random": 2.6103916558312517e-07,
+      "logrank_p_year_only": 1.470972387156304e-07
+    },
+    {
+      "threshold_ratio": 0.05,
+      "consecutive_years": 3,
+      "event_count": 22,
+      "censoring_rate": 0.8823529411764706,
+      "median_time_to_decay": null,
+      "logrank_p": 0.10960545536742333,
+      "cox_hr": 1.7404844474747065,
+      "logrank_p_matched": 0.10960545536742333,
+      "cox_hr_matched": 1.7404844474747065,
+      "matched_event_count": 13,
+      "matched_censoring_rate": 0.93048128342246,
+      "logrank_p_random": 0.00034675519966418446,
+      "logrank_p_year_only": 0.00017800498065258176
+    },
+    {
+      "threshold_ratio": 0.1,
+      "consecutive_years": 2,
+      "event_count": 73,
+      "censoring_rate": 0.6096256684491979,
+      "median_time_to_decay": null,
+      "logrank_p": 0.11495824952612821,
+      "cox_hr": 1.3235766661960968,
+      "logrank_p_matched": 0.11495824952612821,
+      "cox_hr_matched": 1.3235766661960968,
+      "matched_event_count": 58,
+      "matched_censoring_rate": 0.6898395721925134,
+      "logrank_p_random": 0.0025013688789859716,
+      "logrank_p_year_only": 0.00023782977025619005
+    },
+    {
+      "threshold_ratio": 0.1,
+      "consecutive_years": 3,
+      "event_count": 37,
+      "censoring_rate": 0.8021390374331551,
+      "median_time_to_decay": null,
+      "logrank_p": 0.27139575356670503,
+      "cox_hr": 1.3250750749516345,
+      "logrank_p_matched": 0.27139575356670503,
+      "cox_hr_matched": 1.3250750749516345,
+      "matched_event_count": 29,
+      "matched_censoring_rate": 0.8449197860962567,
+      "logrank_p_random": 0.03791764141274042,
+      "logrank_p_year_only": 0.004644691463366241
+    },
+    {
+      "threshold_ratio": 0.15,
+      "consecutive_years": 3,
+      "event_count": 55,
+      "censoring_rate": 0.7058823529411765,
+      "median_time_to_decay": null,
+      "logrank_p": 0.19251647139856182,
+      "cox_hr": 1.306542265807171,
+      "logrank_p_matched": 0.19251647139856182,
+      "cox_hr_matched": 1.306542265807171,
+      "matched_event_count": 44,
+      "matched_censoring_rate": 0.7647058823529411,
+      "logrank_p_random": 0.012719699329228607,
+      "logrank_p_year_only": 0.006081826606432572
+    },
+    {
+      "threshold_ratio": 0.2,
+      "consecutive_years": 3,
+      "event_count": 76,
+      "censoring_rate": 0.5935828877005348,
+      "median_time_to_decay": null,
+      "logrank_p": 0.5201137122118906,
+      "cox_hr": 1.135082504423122,
+      "logrank_p_matched": 0.5201137122118906,
+      "cox_hr_matched": 1.135082504423122,
+      "matched_event_count": 70,
+      "matched_censoring_rate": 0.6256684491978609,
+      "logrank_p_random": 0.05729364341661167,
+      "logrank_p_year_only": 0.03246115207604779
+    }
+  ],
+  "stability": {
+    "reference_configuration": {
+      "threshold_ratio": 0.1,
+      "consecutive_years": 3
+    },
+    "tier_c_neutral_at_reference": true,
+    "ten_to_fifteen_percent_region_stable": true,
+    "logrank_p_range_matched": {
+      "min": 0.10960545536742333,
+      "max": 0.5201137122118906
+    },
+    "decision_guidance": "Choose the most stable region (10-15%), not the most significant. If conclusions flip across the grid, treat the decay metric as unstable.",
+    "stable_region_recommendation": "10-15% thresholds with 3 consecutive years"
+  },
+  "note": "Do not tune thresholds to hit event-count gates. Select the most stable parameter region, not the most significant."
+}

@@ -1,0 +1,86 @@
+{
+  "generated_at": "2026-06-23T07:59:44.467404+00:00",
+  "metrics": {
+    "coverage": {
+      "works_count": 188,
+      "citations_count": 66791,
+      "citations_by_year_count": 0,
+      "persistence_count": 188,
+      "panel_count": 0,
+      "doi_coverage": 1.0,
+      "opencitations_match_rate": 0.0,
+      "coverage_by_concept_group": {
+        "aerospace": 24,
+        "artificial_intelligence": 18,
+        "control_systems": 25,
+        "cryptography": 25,
+        "cybersecurity": 25,
+        "quantum_computing": 24,
+        "semiconductors": 25,
+        "telecommunications": 22
+      }
+    },
+    "distributions": {
+      "publication_year": {
+        "1995": 5,
+        "1996": 4,
+        "1997": 5,
+        "1998": 10,
+        "1999": 7,
+        "2000": 7,
+        "2001": 5,
+        "2002": 21,
+        "2003": 14,
+        "2004": 16,
+        "2005": 8,
+        "2006": 11,
+        "2007": 16,
+        "2008": 14,
+        "2009": 11,
+        "2010": 9,
+        "2011": 16,
+        "2012": 9
+      },
+      "citation_count_bins": {
+        "500+": 188
+      }
+    },
+    "completeness": {
+      "works_null_ratios": {
+        "work_id": 0.0,
+        "doi": 0.0,
+        "year": 0.0,
+        "concept": 0.0,
+        "concept_group": 0.0,
+        "classification_source": 0.0,
+        "classification_confidence": 0.0,
+        "citation_count": 0.0,
+        "institution_count": 0.0
+      },
+      "citations_null_ratios": {
+        "source_doi": 0.0,
+        "target_doi": 0.0,
+        "citation_creation_date": 0.0,
+        "citation_lag_years": 1.0
+      }
+    },
+    "censoring": {
+      "censored_record_count": 188,
+      "baseline_sample_count": 188
+    },
+    "patent_enrichment": {
+      "records": 0,
+      "available_share": 0.0
+    }
+  },
+  "integrity": {
+    "duplicates": {
+      "works_work_id_ratio": 0.0,
+      "citations_edge_ratio": 0.0
+    },
+    "date_consistency": {
+      "negative_lag_count": 0
+    }
+  },
+  "passed": true
+}

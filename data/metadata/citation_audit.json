@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-06-23T07:59:44.479746+00:00",
+  "direction": "incoming_only",
+  "direction_note": "OpenCitations /citations/{doi} returns incoming citations only.",
+  "raw": {
+    "row_count": 66791,
+    "unique_oci": 66791,
+    "unique_edges": 66791,
+    "duplicate_rate": 0.0,
+    "unique_cited_dois": 7,
+    "unique_citing_dois": 66756,
+    "mean_edges_per_work": 9541.57,
+    "max_edges_per_work": 10715,
+    "edges_per_work": [
+      {
+        "target_doi": "10.1107/s0021889812029111",
+        "edge_count": 10715,
+        "work_id": null,
+        "concept_group": null
+      },
+      {
+        "target_doi": "10.1016/j.neuroimage.2011.09.015",
+        "edge_count": 10363,
+        "work_id": null,
+        "concept_group": null
+      },
+      {
+        "target_doi": "10.1086/670067",
+        "edge_count": 10252,
+        "work_id": null,
+        "concept_group": null
+      },
+      {
+        "target_doi": "10.1126/science.aad4998",
+        "edge_count": 9864,
+        "work_id": null,
+        "concept_group": null
+      },
+      {
+        "target_doi": "10.1086/651257",
+        "edge_count": 8819,
+        "work_id": null,
+        "concept_group": null
+      },
+      {
+        "target_doi": "10.1093/bioinformatics/bts565",
+        "edge_count": 8769,
+        "work_id": null,
+        "concept_group": null
+      },
+      {
+        "target_doi": "10.1093/neuonc/noab106",
+        "edge_count": 8009,
+        "work_id": null,
+        "concept_group": null
+      }
+    ]
+  },
+  "processed": {
+    "row_count": 66791,
+    "unique_edges": 66791,
+    "duplicate_rate": 0.0,
+    "mean_edges_per_work": 9541.57,
+    "max_edges_per_work": 10715
+  },
+  "warnings": [
+    "At least one work has 10715 edges, exceeding default per-DOI cap of 5000."
+  ],
+  "works_count": 188,
+  "unique_work_dois": 188
+}

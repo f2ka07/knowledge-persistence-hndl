@@ -1,0 +1,22 @@
+{
+  "pipeline_version": "0.1.0",
+  "generated_at": "2026-06-23T07:59:44.524445+00:00",
+  "git_commit": null,
+  "sources": [
+    {
+      "name": "OpenAlex",
+      "api": "https://api.openalex.org",
+      "license": "CC0"
+    },
+    {
+      "name": "OpenCitations Index",
+      "api": "https://api.opencitations.net/index/v2",
+      "license": "CC-BY-4.0"
+    }
+  ],
+  "query": {
+    "openalex_filter": "publication_year:1995-2012,concepts.id:C41008148,cited_by_count:30-1000,has_doi:true",
+    "openalex_select": "id,doi,publication_year,cited_by_count,referenced_works,authorships,primary_location,concepts",
+    "limit": null
+  }
+}

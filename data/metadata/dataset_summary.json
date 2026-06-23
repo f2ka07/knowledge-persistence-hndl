@@ -1,0 +1,278 @@
+{
+  "generated_at": "2026-06-23T09:00:02.374614+00:00",
+  "processed_dir": "dataset_v0.2_candidate\\processed",
+  "tables": {
+    "works.parquet": {
+      "rows": 188,
+      "columns": [
+        "work_id",
+        "doi",
+        "year",
+        "concept",
+        "concept_group",
+        "classification_source",
+        "classification_confidence",
+        "citation_count",
+        "institution_count"
+      ]
+    },
+    "citations.parquet": {
+      "rows": 452219,
+      "columns": [
+        "source_doi",
+        "target_doi",
+        "citation_creation_date",
+        "citation_lag_years"
+      ]
+    },
+    "citations_by_year.parquet": {
+      "rows": 3819,
+      "columns": [
+        "work_id",
+        "doi",
+        "concept_group",
+        "publication_year",
+        "citation_year",
+        "age_years",
+        "annual_citations",
+        "cumulative_citations",
+        "normalized_annual_citations",
+        "normalized_cumulative_citations",
+        "expected_citations_at_age",
+        "normalized_citation_rate",
+        "field_percentile",
+        "year_percentile"
+      ]
+    },
+    "persistence.parquet": {
+      "rows": 188,
+      "columns": [
+        "work_id",
+        "doi",
+        "concept_group",
+        "publication_year",
+        "last_observed_year",
+        "observed_window_years",
+        "first_citation_year",
+        "last_citation_year",
+        "citation_lifespan_years",
+        "peak_citation_year",
+        "peak_age_years",
+        "estimated_half_life_years",
+        "half_life_censored",
+        "decay_start_year",
+        "post_peak_decay_rate",
+        "long_tail_indicator",
+        "censoring_flag",
+        "decay_event_year",
+        "decay_threshold",
+        "time_to_decay_years",
+        "influence_decay_event",
+        "influence_decay_censored"
+      ]
+    },
+    "citation_persistence_panel.parquet": {
+      "rows": 3819,
+      "columns": [
+        "work_id",
+        "concept_group",
+        "age_years",
+        "observed_citation_rate",
+        "cumulative_citation_share",
+        "normalized_citation_rate",
+        "field_percentile",
+        "year_percentile",
+        "citation_share_remaining",
+        "censoring_flag"
+      ]
+    },
+    "baseline_random_sample.parquet": {
+      "rows": 188,
+      "columns": [
+        "work_id",
+        "doi",
+        "concept_group",
+        "publication_year",
+        "last_observed_year",
+        "observed_window_years",
+        "first_citation_year",
+        "last_citation_year",
+        "citation_lifespan_years",
+        "peak_citation_year",
+        "peak_age_years",
+        "estimated_half_life_years",
+        "half_life_censored",
+        "decay_start_year",
+        "post_peak_decay_rate",
+        "long_tail_indicator",
+        "censoring_flag",
+        "decay_event_year",
+        "decay_threshold",
+        "time_to_decay_years",
+        "influence_decay_event",
+        "influence_decay_censored",
+        "sample_cohort",
+        "mean_normalized_citation_rate",
+        "mean_field_percentile",
+        "mean_year_percentile"
+      ]
+    },
+    "baseline_matched.parquet": {
+      "rows": 188,
+      "columns": [
+        "work_id",
+        "doi",
+        "concept_group",
+        "publication_year",
+        "last_observed_year",
+        "observed_window_years",
+        "first_citation_year",
+        "last_citation_year",
+        "citation_lifespan_years",
+        "peak_citation_year",
+        "peak_age_years",
+        "estimated_half_life_years",
+        "half_life_censored",
+        "decay_start_year",
+        "post_peak_decay_rate",
+        "long_tail_indicator",
+        "censoring_flag",
+        "decay_event_year",
+        "decay_threshold",
+        "time_to_decay_years",
+        "influence_decay_event",
+        "influence_decay_censored",
+        "sample_cohort",
+        "mean_normalized_citation_rate",
+        "mean_field_percentile",
+        "mean_year_percentile"
+      ]
+    },
+    "baseline_year_only.parquet": {
+      "rows": 188,
+      "columns": [
+        "work_id",
+        "doi",
+        "concept_group",
+        "publication_year",
+        "last_observed_year",
+        "observed_window_years",
+        "first_citation_year",
+        "last_citation_year",
+        "citation_lifespan_years",
+        "peak_citation_year",
+        "peak_age_years",
+        "estimated_half_life_years",
+        "half_life_censored",
+        "decay_start_year",
+        "post_peak_decay_rate",
+        "long_tail_indicator",
+        "censoring_flag",
+        "decay_event_year",
+        "decay_threshold",
+        "time_to_decay_years",
+        "influence_decay_event",
+        "influence_decay_censored",
+        "sample_cohort",
+        "mean_normalized_citation_rate",
+        "mean_field_percentile",
+        "mean_year_percentile"
+      ]
+    },
+    "threshold_sensitivity.parquet": {
+      "rows": 6,
+      "columns": [
+        "threshold_ratio",
+        "consecutive_years",
+        "event_count",
+        "censoring_rate",
+        "median_time_to_decay",
+        "logrank_p",
+        "cox_hr",
+        "logrank_p_matched",
+        "cox_hr_matched",
+        "matched_event_count",
+        "matched_censoring_rate",
+        "logrank_p_random",
+        "logrank_p_year_only"
+      ]
+    }
+  },
+  "sector_distribution": {
+    "aerospace": 24,
+    "artificial_intelligence": 18,
+    "control_systems": 25,
+    "cryptography": 25,
+    "cybersecurity": 25,
+    "quantum_computing": 24,
+    "semiconductors": 25,
+    "telecommunications": 22
+  },
+  "year_distribution": {
+    "1995": 5,
+    "1996": 4,
+    "1997": 5,
+    "1998": 10,
+    "1999": 7,
+    "2000": 7,
+    "2001": 5,
+    "2002": 21,
+    "2003": 14,
+    "2004": 16,
+    "2005": 8,
+    "2006": 11,
+    "2007": 16,
+    "2008": 14,
+    "2009": 11,
+    "2010": 9,
+    "2011": 16,
+    "2012": 9
+  },
+  "persistence_summary": {
+    "records": 188,
+    "influence_decay_events": 37,
+    "influence_decay_censoring_share": 0.8031914893617021,
+    "citation_stop_censoring_share": 0.9787234042553191
+  },
+  "effective_events": {
+    "generated_at": "2026-06-23T08:21:57.192634+00:00",
+    "min_events_threshold": 50,
+    "primary_event_definition": "influence_decay",
+    "decay_rule": "annual_rate < 0.1 * peak_rate for 3 consecutive years",
+    "cohorts": {
+      "hndl": {
+        "records": 188,
+        "citation_stop_events": 4,
+        "influence_decay_events": 37,
+        "citation_stop_censoring_share": 0.9787234042553191,
+        "influence_decay_censoring_share": 0.8031914893617021
+      },
+      "baseline_random": {
+        "records": 188,
+        "citation_stop_events": 70,
+        "influence_decay_events": 53,
+        "citation_stop_censoring_share": 0.6276595744680851,
+        "influence_decay_censoring_share": 0.7180851063829787
+      },
+      "baseline_year_only": {
+        "records": 188,
+        "citation_stop_events": 67,
+        "influence_decay_events": 59,
+        "citation_stop_censoring_share": 0.6436170212765957,
+        "influence_decay_censoring_share": 0.6861702127659575
+      },
+      "baseline_matched": {
+        "records": 188,
+        "citation_stop_events": 2,
+        "influence_decay_events": 29,
+        "citation_stop_censoring_share": 0.9893617021276596,
+        "influence_decay_censoring_share": 0.8457446808510638
+      }
+    },
+    "hndl_influence_decay_events": 37,
+    "hndl_citation_stop_events": 4,
+    "ready_to_scale": false,
+    "scaling_guidance": "HNDL cohort has 37 influence-decay events and 4 citation-stop events (< 50). Do not broaden years further; refine event definitions or modelling before scaling.",
+    "note": "Influence decay measures strategic relevance loss, not citation extinction. dataset_v0.1 predates cited_doi fix; use post-fix builds for inference."
+  }
+}
