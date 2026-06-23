@@ -49,7 +49,20 @@ python -m pqm_readiness count-events
 
 Outputs land in `data/metadata/` and `data/processed/threshold_sensitivity.parquet`.
 
-### 5. Unit tests
+### 5. Regenerate manuscript figures
+
+```bash
+python scripts/generate_manuscript_figures.py
+```
+
+Writes `figures/figure_a_influence_decay_operationalisation.{pdf,png}` and `figures/figure_b_persistence_decomposition.{pdf,png}` from frozen parquet tables. Individual plotters:
+
+```bash
+python scripts/generate_figure_a.py
+python scripts/generate_figure_b.py
+```
+
+### 6. Unit tests
 
 ```bash
 python -m pytest tests/ -q
